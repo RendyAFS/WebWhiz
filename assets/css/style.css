@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&display=swap');
+/* tes */
+@media screen and (min-width: 300px) {
+    .header img {
+        background-size: cover;
+        /* Latar belakang akan menutupi seluruh area elemen */
+        background-position: center;
+        /* Latar belakang akan terpusat */
+        max-width: 100%;
+        /* Maksimum lebar tidak melebihi halaman */
+        height: auto;
+        /* Tinggi elemen disesuaikan dengan lebar */
+    }
+
+    .judul h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+    }
+
+    .text-deskripsi {
+        text-align: justify;
+    }
+
+    .wadah-banner img {
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px black;
+        cursor: pointer;
+
+    }
+
+
+    .slider-container,
+    .slider2-container,
+    .slider3-container, 
+    .slider4-container, 
+    .slider5-container, 
+    .slider6-container 
+     {
+        overflow: hidden;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .slider,
+    .slider2, 
+    .slider3,
+    .slider4,
+    .slider5, 
+    .slider6 
+    {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .card {
+        flex: 0 0 25%;
+        /* 25% width for each card to display 4 cards at a time */
+        text-align: center;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+
+    .about-me img {
+        background-size: cover;
+        /* Latar belakang akan menutupi seluruh area elemen */
+        background-position: center;
+        /* Latar belakang akan terpusat */
+        max-width: 100%;
+        /* Maksimum lebar tidak melebihi halaman */
+        height: auto;
+        /* Tinggi elemen disesuaikan dengan lebar */
+    }
+
+    .footer img {
+        background-size: cover;
+        /* Latar belakang akan menutupi seluruh area elemen */
+        background-position: center;
+        /* Latar belakang akan terpusat */
+        max-width: 100%;
+        /* Maksimum lebar tidak melebihi halaman */
+        height: auto;
+        /* Tinggi elemen disesuaikan dengan lebar */
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .header img {
+        background-size: cover;
+        /* Latar belakang akan menutupi seluruh area elemen */
+        background-position: center;
+        /* Latar belakang akan terpusat */
+        max-width: 100%;
+        /* Maksimum lebar tidak melebihi halaman */
+        height: auto;
+        /* Tinggi elemen disesuaikan dengan lebar */
+    }
+
+    .judul h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+    }
+
+    .text-deskripsi {
+        text-align: justify;
+    }
+
+    .wadah-banner img {
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px black;
+        cursor: pointer;
+
+    }
+
+
+    .slider-container,
+    .slider2-container,
+    .slider3-container, 
+    .slider4-container, 
+    .slider5-container, 
+    .slider6-container 
+    {
+        overflow: hidden;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .slider,
+    .slider2, 
+    .slider3,
+    .slider4,
+    .slider5, 
+    .slider6 
+    {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .card {
+        flex: 0 0 25%;
+        /* 25% width for each card to display 4 cards at a time */
+        text-align: center;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .about-me img {
+        background-size: cover;
+        /* Latar belakang akan menutupi seluruh area elemen */
+        background-position: center;
+        /* Latar belakang akan terpusat */
+        max-width: 100%;
+        /* Maksimum lebar tidak melebihi halaman */
+        height: auto;
+        /* Tinggi elemen disesuaikan dengan lebar */
+    }
+
+    .footer img {
+        background-size: cover;
+        /* Latar belakang akan menutupi seluruh area elemen */
+        background-position: center;
+        /* Latar belakang akan terpusat */
+        max-width: 100%;
+        /* Maksimum lebar tidak melebihi halaman */
+        height: auto;
+        /* Tinggi elemen disesuaikan dengan lebar */
+    }
+
+}
